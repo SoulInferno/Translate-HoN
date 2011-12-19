@@ -11,11 +11,11 @@ EffectType_StatusDebuff											Schwächung
 EffectType_StatusDisable										
 EffectType_StatusStealth										
 EffectType_Dominate												Dominiert
-EffectType_Transmute											Transmute
-EffectType_Disable												Disable
+EffectType_Transmute											umwandeln
+EffectType_Disable												Unfähig
 EffectType_Astrolabe											Astrolabe
 EffectType_Transfigure											Transfigure
-EffectType_Push													Push
+EffectType_Push													Schub
 EffectType_Splash												Splash
 EffectType_Cleave												Cleave
 EffectType_DOT													
@@ -24,66 +24,66 @@ EffectType_DeBuff
 EffectType_Returned												
 EffectType_BarrierIdol											
 EffectType_NeutralAggro											
-EffectType_SuperiorMagic										Superior Magic
-EffectType_SuperiorPhysical										Superior Physical
+EffectType_SuperiorMagic										DurchdringungsMagie
+EffectType_SuperiorPhysical										Körperlich Durchdringend
 
-ImmunityType_MagicImmunity1										Magic Immunity
-ImmunityType_DominateImmunity									Dominate Immunity
-ImmunityType_AncientImmunity									Ancient Immunity
-ImmunityType_BossImmunity										Boss Immunity
-ImmunityType_SiegeImmunity										Siege Immunity
-ImmunityType_DisableImmunity									Disable Immunity
-ImmunityType_TargetingImmunity									Targeting Immunity
-ImmunityType_AstrolabeImmunity									Astrolabe Immunity
+ImmunityType_MagicImmunity1										Magisch Immun
+ImmunityType_DominateImmunity									Dominierungs Immun
+ImmunityType_AncientImmunity									Ancient Immun
+ImmunityType_BossImmunity										Boss Immun
+ImmunityType_SiegeImmunity										Siege Immun
+ImmunityType_DisableImmunity									Unfähig Immun
+ImmunityType_TargetingImmunity									Focus Immun
+ImmunityType_AstrolabeImmunity									Astrolabe Immun
 ImmunityType_TransfigureImmunity								
-ImmunityType_GadgetImmunity										Gadget Immunity
-ImmunityType_CourierImmunity									Courier Immunity
+ImmunityType_GadgetImmunity										Gadget Immun
+ImmunityType_CourierImmunity									Kurier Immun
 ImmunityType_AttackImmunity										
-ImmunityType_IndirectImmunity									Indirect Immunity
+ImmunityType_IndirectImmunity									Indirekte Immun
 ImmunityType_AncientImmunity2									
-ImmunityType_PhysicalImmunity									Physical Immunity
+ImmunityType_PhysicalImmunity									Körperlich Immun
 ImmunityType_BarrierImmunity									
 
-HeroCategory_cc									Crowd Control
-HeroCategory_magic								Magic Damage
+HeroCategory_cc									Stun/CC/etc
+HeroCategory_magic								Magischer Schaden
 HeroCategory_muc								Multi-unit Control
-HeroCategory_physical							Physical Damage
-HeroCategory_protective							Protective
+HeroCategory_physical							Körperlicher Schaden
+HeroCategory_protective							Support
 HeroCategory_tank								Tank
 
-StealthType_hero												Hero
-StealthType_item												Item
-StealthType_ward												Ward
+StealthType_hero												Held
+StealthType_item												Gegenstand
+StealthType_ward												Auge
 StealthType_Unrevealable										
 
-RevealType_ward													Ward of Revelation
-RevealType_eye													Bound Eye
-RevealType_tower												Tower
+RevealType_ward													Unsichtbar sehendes Auge
+RevealType_eye													gebundenes
+RevealType_tower												Turm
 
-ArmorType_normal												Armor
-ArmorType_magic													Magic Armor
+ArmorType_normal												Rüstung
+ArmorType_magic													Magische Rüstung
 
 TargetScheme_null												
-TargetScheme_all												All
+TargetScheme_all												Alle
 TargetScheme_nothing											
-TargetScheme_self												Self
-TargetScheme_enemy_units										Enemy Units
-TargetScheme_enemy_heroes										Enemy Heroes
-TargetScheme_ally_units											Ally Units
-TargetScheme_ally_heroes										Ally Heroes
-TargetScheme_all_units											All Units
-TargetScheme_all_visible_units									All Visible Units
-TargetScheme_ally_ranged_units									Ally Ranged Units
-TargetScheme_ally_ranged_heroes									Ally Ranged Heroes
-TargetScheme_ally_melee_units									Ally Melee Units
-TargetScheme_ally_buildings										Ally Buildings
-TargetScheme_enemy_units_and_Towers								Enemy Units/Towers
-TargetScheme_enemy_objects										Enemy Objects
-TargetScheme_teleport_targets									Teleport Targets
-TargetScheme_my_units											Owned Units
+TargetScheme_self												Selber
+TargetScheme_enemy_units										Gegner Einheiten
+TargetScheme_enemy_heroes										Gegner Helden
+TargetScheme_ally_units											Alle Einheiten
+TargetScheme_ally_heroes										Alle Helden
+TargetScheme_all_units											Alle Einheiten
+TargetScheme_all_visible_units									Alle sichtbaren Einheiten
+TargetScheme_ally_ranged_units									Alle Fernkampf Einheiten
+TargetScheme_ally_ranged_heroes									Alle Fernkampf Helden
+TargetScheme_ally_melee_units									Alle Nahkampf Einheiten
+TargetScheme_ally_buildings										Alle Gebäude
+TargetScheme_enemy_units_and_Towers								Gegnerische Einheiten/Türme
+TargetScheme_enemy_objects										Gegnerische Objekte
+TargetScheme_teleport_targets									Teleportierte Ziele
+TargetScheme_my_units											Eigene Einheiten
 TargetScheme_owner												
 TargetScheme_owned												
-TargetScheme_trees												Trees
+TargetScheme_trees												Bäume
 TargetScheme_enemy_melee_units									Enemy Melee Units
 TargetScheme_enemy_creeps										Enemy Creeps
 TargetScheme_attack												Attack Targets
