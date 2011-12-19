@@ -248,118 +248,118 @@ Option_Hardcore													Hardcore
 Option_Casual													Lässiger Modus
 
 // Building_HellbourneTower
-Building_HellbourneTower_name									Defense Tower
+Building_HellbourneTower_name									Verteidigungs Turm
 
 // Building_HellbourneBase
-Building_HellbourneBase_name									Sacrificial Shrine
+Building_HellbourneBase_name									Opfer Schrein
 
 // Building_HellbourneRepeater4
-Building_HellbourneRepeater4_name								Meatball
+Building_HellbourneRepeater4_name								Fleichball
 Building_HellbourneRepeater4_description						
 
 // Building_HellbourneMeleeBarracks
-Building_HellbourneMeleeBarracks_name							Melee Barracks
+Building_HellbourneMeleeBarracks_name							Nahkampfkaserne
 
 // Building_HellbourneRangedBarracks
-Building_HellbourneRangedBarracks_name							Ranged Barracks
+Building_HellbourneRangedBarracks_name							Fernkampfkaserne
 
 // Building_HellbourneRepeater1
-Building_HellbourneRepeater1_name								Shrine
+Building_HellbourneRepeater1_name								Schrein
 
 // Building_HellbourneRepeater2
-Building_HellbourneRepeater2_name								Shrine
+Building_HellbourneRepeater2_name								Schrein
 
 // Building_HellbourneRepeater3
-Building_HellbourneRepeater3_name								Shrine
+Building_HellbourneRepeater3_name								Schrein
 
 // Building_HellbourneStore
-Building_HellbourneStore_name									Observatory
+Building_HellbourneStore_name									Sternwarte
 
 // Building_HellbourneWell
-Building_HellbourneWell_name									Well of Tar
+Building_HellbourneWell_name									Teerbrunnen
 
 // Building_HellbourneWell_Attack
 
 // State_HellbourneHealingWell
-State_HellbourneHealingWell_name								Tarpit
+State_HellbourneHealingWell_name								Teergrube
 
 // Building_HellbourneWellStore
-Building_HellbourneWellStore_name								Shop
+Building_HellbourneWellStore_name								Geschäft
 
 // Building_LegionTower
-Building_LegionTower_name										Defense Tower
+Building_LegionTower_name										Verteidigungs Turm
 
 // Building_LegionBase
-Building_LegionBase_name										World Tree
+Building_LegionBase_name										Baum der Welt
 Building_LegionBase_description									icon.tga
 
 // Building_LegionMeleeBarracks
-Building_LegionMeleeBarracks_name								Melee Barracks
+Building_LegionMeleeBarracks_name								Nahkampfkaserne
 Building_LegionMeleeBarracks_description						icon.tga
 
 // Building_LegionRangedBarracks
-Building_LegionRangedBarracks_name								Ranged Barracks
+Building_LegionRangedBarracks_name								Fernkampfkaserne
 Building_LegionRangedBarracks_description						icon.tga
 
 // Building_LegionRepeater1
-Building_LegionRepeater1_name									Hut
+Building_LegionRepeater1_name									Hütte
 
 // Building_LegionRepeater2
-Building_LegionRepeater2_name									Hut
+Building_LegionRepeater2_name									Hütte
 
 // Building_LegionRepeater3
-Building_LegionRepeater3_name									Hut
+Building_LegionRepeater3_name									Hütte
 
 // Building_LegionStore
-Building_LegionStore_name										Observatory
+Building_LegionStore_name										Sternwarte
 
 // Building_LegionWell
-Building_LegionWell_name										Well of Life
+Building_LegionWell_name										Brunnen des Lebens
 
 // Building_LegionWell_Attack
 
 // State_LegionHealingWell
-State_LegionHealingWell_name									Healing Well
+State_LegionHealingWell_name									Heilungsbrunnen
 
 // Building_LegionWellStore
-Building_LegionWellStore_name									Shop
+Building_LegionWellStore_name									Geschäft
 
 // Building_Outpost
-Building_Outpost_name											Outpost
+Building_Outpost_name											Außenposten
 Building_Outpost_description									icon.tga
 
 // Ability_AttributeBoost
-Ability_AttributeBoost_name										Attribute Boost
-Ability_AttributeBoost_description								^yPer Level Bonuses:^*\n+2 Strength\n+2 Agility\n+2 Intelligence
-Ability_AttributeBoost_description_simple						Grants an increase to your hero's attributes.\n\n^gPer Level Bonuses:^*\n+2 Strength\n+2 Agility\n+2 Intelligence
+Ability_AttributeBoost_name										Temporäre Eigenschaftenverstärkung
+Ability_AttributeBoost_description								^ypro Level Bonuse:^*\n+2 Stärke\n+2 Geschicklichkeit\n+2 Intelligenz
+Ability_AttributeBoost_description_simple						Gibt deinem Helden einen Permanenten Bonus der Eigenschaften.\n\n^gPro Level Bonuse:^*\n+2 Stärke\n+2 Geschicklichkeit\n+2 Intelligenz
 
 // State_Teleport_GrimmCrossroads
-State_Teleport_GrimmCrossroads_name								Grimm's Crossroads
-State_Teleport_GrimmCrossroads_description						You recently used the teleporters and cannot again for a short time.
+State_Teleport_GrimmCrossroads_name								Grimm's Kreuzung
+State_Teleport_GrimmCrossroads_description						Du hast dich grade Teleportiert und kannst dich für kurze Zeit nicht teleportieren.
 
 // Ability_Taunt
-Ability_Taunt_name												Taunt
-Ability_Taunt_name:disco_taunt									Disco Taunt
-Ability_Taunt_name:gore_taunt									Gore Taunt
+Ability_Taunt_name												Spott
+Ability_Taunt_name:disco_taunt									Disco Spott
+Ability_Taunt_name:gore_taunt									Spott des Blutes
 Ability_Taunt_description								
-Ability_Taunt_description_simple								Taunting is disabled for this account.
-Ability_Taunt_description_simple:perks							Target an enemy hero to taunt it. You will be revealed to your target's team while you taunt. Kill taunted target within 40 seconds to earn a Smackdown.
-Ability_Taunt_description_simple:standard_taunt					Target an enemy hero to taunt it. You will be revealed to your target's team while you taunt. Kill taunted target within 40 seconds to earn a Smackdown.
-Ability_Taunt_description_simple:disco_taunt					Target an enemy hero to taunt it. You will be revealed to your target's team while you taunt. Kill taunted target within 40 seconds to earn a Smackdown.
-Ability_Taunt_description_simple:gore_taunt						Target an enemy hero to taunt it. You will be revealed to your target's team while you taunt. Kill taunted target within 40 seconds to earn a Smackdown.
-Ability_Taunt_IMPACT_effect										Taunting is disabled for this account.
-Ability_Taunt_IMPACT_effect:perks								Taunts target enemy hero. You will be revealed to your target's team while you taunt. Kill taunted target within 40 seconds to earn a Smackdown.
-Ability_Taunt_IMPACT_effect:standard_taunt						Taunts target enemy hero. You will be revealed to your target's team while you taunt. Kill taunted target within 40 seconds to earn a Smackdown.
-Ability_Taunt_IMPACT_effect:disco_taunt							Taunts target enemy hero. You will be revealed to your target's team while you taunt. Kill taunted target within 40 seconds to earn a Smackdown.
-Ability_Taunt_IMPACT_effect:gore_taunt							Taunts target enemy hero. You will be revealed to your target's team while you taunt. Kill taunted target within 40 seconds to earn a Smackdown.
+Ability_Taunt_description_simple								Spotten ist auf diesen Account nicht möglich.
+Ability_Taunt_description_simple:perks							Ziele einen Gegnerischen Helden an. Du wirst während des Spotten für das Gegnerteam sichtbar. Wenn du das Ziel Innerhalb von 40 sekunden Tödest bekommst du einen Smackdown.
+Ability_Taunt_description_simple:standard_taunt					Ziele einen Gegnerischen Helden an. Du wirst während des Spotten für das Gegnerteam sichtbar. Wenn du das Ziel Innerhalb von 40 sekunden Tödest bekommst du einen Smackdown.
+Ability_Taunt_description_simple:disco_taunt					Ziele einen Gegnerischen Helden an. Du wirst für während des Spotten für das Gegnerteam sichtbar. Wenn du das Ziel Innerhalb von 40 sekunden Tödest bekommst du einen Smackdown.
+Ability_Taunt_description_simple:gore_taunt						Ziele einen Gegnerischen Helden an. Du wirst für während des Spotten für das Gegnerteam sichtbar. Wenn du das Ziel Innerhalb von 40 sekunden Tödest bekommst du einen Smackdown.
+Ability_Taunt_IMPACT_effect										Spotten ist auf diesen Account nicht möglich.
+Ability_Taunt_IMPACT_effect:perks								Ziele einen Gegnerischen Helden an. Du wirst für während des Spotten für das Gegnerteam sichtbar. Wenn du das Ziel Innerhalb von 40 sekunden Tödest bekommst du einen Smackdown.
+Ability_Taunt_IMPACT_effect:standard_taunt						Ziele einen Gegnerischen Helden an. Du wirst für während des Spotten für das Gegnerteam sichtbar. Wenn du das Ziel Innerhalb von 40 sekunden Tödest bekommst du einen Smackdown.
+Ability_Taunt_IMPACT_effect:disco_taunt							Ziele einen Gegnerischen Helden an. Du wirst für während des Spotten für das Gegnerteam sichtbar. Wenn du das Ziel Innerhalb von 40 sekunden Tödest bekommst du einen Smackdown.
+Ability_Taunt_IMPACT_effect:gore_taunt							Ziele einen Gegnerischen Helden an. Du wirst für während des Spotten für das Gegnerteam sichtbar. Wenn du das Ziel Innerhalb von 40 sekunden Tödest bekommst du einen Smackdown.
 
 // Ability_Accursed1
-Ability_Accursed1_name											Cauterize
-Ability_Accursed1_description									At the cost of some of his own Health, Accursed bursts the air around a target, dealing damage to them if they are an enemy or healing them if they are an ally.
-Ability_Accursed1_description_simple							Target a unit to deal ^o{100,150,200,250} Magic Damage^* if it's an enemy or heal for ^o{100,150,200,250} Health^* if it's an ally.\n\nDeals ^o{50,75,100,125} Magic Damage^* to self.
-Ability_Accursed1_IMPACT_effect									Deals {100,150,200,250} Magic Damage to enemy units or heals allied units for {100,150,200,250} Health.  Deals {50,75,100,125} Magic Damage to self.
-Ability_Accursed1_IMPACT_effect:Alt        						Deals {100,150,200,250} Magic Damage to enemy units or heals allied units for {100,150,200,250} Health.  Deals {50,75,100,125} Magic Damage to self.
-Ability_Accursed1_tooltip_flavor								It's a love/hate kinda thing.
+Ability_Accursed1_name											Ausbrennen
+Ability_Accursed1_description									Es kostet ein wenig Leben von Accursed, Accursed lässt die Luft ums Ziel platzen, macht an Gegnern Schaden und Heilt Verbündete.
+Ability_Accursed1_description_simple							Angezielte Einheiten erhalten ^o{100,150,200,250} Magischen Schaden^* Verbündete werden für ^o{100,150,200,250} Leben^* geheilt. Er macht sich selber\n\nDeals ^o{50,75,100,125} Magischen Schaden^*.
+Ability_Accursed1_IMPACT_effect									Macht {100,150,200,250} Magischen Damage den Gegnern oder heil Verbündete um {100,150,200,250} Leben.  Macht sich selber {50,75,100,125} Magischen Schaden.
+Ability_Accursed1_IMPACT_effect:Alt        						Macht {100,150,200,250} Magischen Schden Gegnerischen Einheiten oder er heilt Verbündete um {100,150,200,250} Leben.  Macht sich selber {50,75,100,125} Magischen Schaden.
+Ability_Accursed1_tooltip_flavor								Es ist ein bisschen Lieber/Hass in der Luft.
 
 // Ability_Accursed2
 Ability_Accursed2_name											Fire Shield
