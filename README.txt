@@ -8,6 +8,6 @@ Die Dateien werden nach der vollständigen Übersetzung ins deutsche umgewandelt,
 sodass oben im Hauptmenü nur noch Deutsch ausgewählt werden muss.
 
 
-Bitte unbedingt beim editieren Notepad2 oder Notepad++ verwenden und den
+Bitte unbedingt beim Editieren das Programm Notepad2 oder Notepad++ verwenden und den
 Textcodierungstyp von "ANSI" oder "ISO" auf "UTF8" umstellen!
 Sonst werden die deutschen Umlaute im Spiel nicht korrekt dargestellt !!
