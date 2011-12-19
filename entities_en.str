@@ -3,19 +3,19 @@ AttackType_none													Kein
 AttackType_melee												Nahkampf
 AttackType_ranged												Fernkampf
 
-EffectType_Attack												Attack
-EffectType_Physical												Physisch
+EffectType_Attack												Angreifen
+EffectType_Physical												Körperlich
 EffectType_Magic												Magisch
-EffectType_StatusBuff											Buff
-EffectType_StatusDebuff											Debuff
+EffectType_StatusBuff											Verstärkung
+EffectType_StatusDebuff											Schwächung
 EffectType_StatusDisable										
 EffectType_StatusStealth										
-EffectType_Dominate												Dominate
-EffectType_Transmute											Transmute
-EffectType_Disable												Disable
+EffectType_Dominate												Dominiert
+EffectType_Transmute											umwandeln
+EffectType_Disable												Unfähig
 EffectType_Astrolabe											Astrolabe
 EffectType_Transfigure											Transfigure
-EffectType_Push													Push
+EffectType_Push													Schub
 EffectType_Splash												Splash
 EffectType_Cleave												Cleave
 EffectType_DOT													
@@ -24,228 +24,228 @@ EffectType_DeBuff
 EffectType_Returned												
 EffectType_BarrierIdol											
 EffectType_NeutralAggro											
-EffectType_SuperiorMagic										Superior Magic
-EffectType_SuperiorPhysical										Superior Physical
+EffectType_SuperiorMagic										DurchdringungsMagie
+EffectType_SuperiorPhysical										Körperlich Durchdringend
 
-ImmunityType_MagicImmunity1										Magic Immunity
-ImmunityType_DominateImmunity									Dominate Immunity
-ImmunityType_AncientImmunity									Ancient Immunity
-ImmunityType_BossImmunity										Boss Immunity
-ImmunityType_SiegeImmunity										Siege Immunity
-ImmunityType_DisableImmunity									Disable Immunity
-ImmunityType_TargetingImmunity									Targeting Immunity
-ImmunityType_AstrolabeImmunity									Astrolabe Immunity
+ImmunityType_MagicImmunity1										Magisch Immun
+ImmunityType_DominateImmunity									Dominierungs Immun
+ImmunityType_AncientImmunity									Ancient Immun
+ImmunityType_BossImmunity										Boss Immun
+ImmunityType_SiegeImmunity										Siege Immun
+ImmunityType_DisableImmunity									Unfähig Immun
+ImmunityType_TargetingImmunity									Focus Immun
+ImmunityType_AstrolabeImmunity									Astrolabe Immun
 ImmunityType_TransfigureImmunity								
-ImmunityType_GadgetImmunity										Gadget Immunity
-ImmunityType_CourierImmunity									Courier Immunity
+ImmunityType_GadgetImmunity										Gadget Immun
+ImmunityType_CourierImmunity									Kurier Immun
 ImmunityType_AttackImmunity										
-ImmunityType_IndirectImmunity									Indirect Immunity
+ImmunityType_IndirectImmunity									Indirekte Immun
 ImmunityType_AncientImmunity2									
-ImmunityType_PhysicalImmunity									Physical Immunity
+ImmunityType_PhysicalImmunity									Körperlich Immun
 ImmunityType_BarrierImmunity									
 
-HeroCategory_cc									Crowd Control
-HeroCategory_magic								Magic Damage
-HeroCategory_muc								Multi-unit Control
-HeroCategory_physical							Physical Damage
-HeroCategory_protective							Protective
+HeroCategory_cc									Stun/CC/etc
+HeroCategory_magic								Magischer Schaden
+HeroCategory_muc								Multi-Einheiten Kontrolle
+HeroCategory_physical							Körperlicher Schaden
+HeroCategory_protective							Support
 HeroCategory_tank								Tank
 
-StealthType_hero												Hero
-StealthType_item												Item
-StealthType_ward												Ward
+StealthType_hero												Held
+StealthType_item												Gegenstand
+StealthType_ward												Auge
 StealthType_Unrevealable										
 
-RevealType_ward													Ward of Revelation
-RevealType_eye													Bound Eye
-RevealType_tower												Tower
+RevealType_ward													Unsichtbar sehendes Auge
+RevealType_eye													gebundenes
+RevealType_tower												Turm
 
-ArmorType_normal												Armor
-ArmorType_magic													Magic Armor
+ArmorType_normal												Rüstung
+ArmorType_magic													Magische Rüstung
 
 TargetScheme_null												
-TargetScheme_all												All
+TargetScheme_all												Alle
 TargetScheme_nothing											
-TargetScheme_self												Self
-TargetScheme_enemy_units										Enemy Units
-TargetScheme_enemy_heroes										Enemy Heroes
-TargetScheme_ally_units											Ally Units
-TargetScheme_ally_heroes										Ally Heroes
-TargetScheme_all_units											All Units
-TargetScheme_all_visible_units									All Visible Units
-TargetScheme_ally_ranged_units									Ally Ranged Units
-TargetScheme_ally_ranged_heroes									Ally Ranged Heroes
-TargetScheme_ally_melee_units									Ally Melee Units
-TargetScheme_ally_buildings										Ally Buildings
-TargetScheme_enemy_units_and_Towers								Enemy Units/Towers
-TargetScheme_enemy_objects										Enemy Objects
-TargetScheme_teleport_targets									Teleport Targets
-TargetScheme_my_units											Owned Units
+TargetScheme_self												Selber
+TargetScheme_enemy_units										Gegner Einheiten
+TargetScheme_enemy_heroes										Gegner Helden
+TargetScheme_ally_units											Alle Einheiten
+TargetScheme_ally_heroes										Alle Helden
+TargetScheme_all_units											Alle Einheiten
+TargetScheme_all_visible_units									Alle sichtbaren Einheiten
+TargetScheme_ally_ranged_units									Alle Fernkampf Einheiten
+TargetScheme_ally_ranged_heroes									Alle Fernkampf Helden
+TargetScheme_ally_melee_units									Alle Nahkampf Einheiten
+TargetScheme_ally_buildings										Alle Gebäude
+TargetScheme_enemy_units_and_Towers								Gegnerische Einheiten/Türme
+TargetScheme_enemy_objects										Gegnerische Objekte
+TargetScheme_teleport_targets									Teleportierte Ziele
+TargetScheme_my_units											Eigene Einheiten
 TargetScheme_owner												
 TargetScheme_owned												
-TargetScheme_trees												Trees
-TargetScheme_enemy_melee_units									Enemy Melee Units
-TargetScheme_enemy_creeps										Enemy Creeps
-TargetScheme_attack												Attack Targets
-TargetScheme_attack_all											Unrestricted Attack Targets
-TargetScheme_bottle												Bottle Targets
-TargetScheme_melee_units										Melee Units
-TargetScheme_ranged_units										Ranged Units
-TargetScheme_visible_enemy_units								Visible Enemy Units
-TargetScheme_visible_enemy_heroes								Visible Enemy Heroes
-TargetScheme_visible_enemy_objects								Visible Enemy Objects
-TargetScheme_injured_ally_units									Injured Ally Units
-TargetScheme_enemy_units_and_trees								Enemy Units and Trees
-TargetScheme_all_other_units									All Other Units
-TargetScheme_all_other_organic_units							All Other Organic Units
-TargetScheme_enemy_buildings									Enemy Buildings
-TargetScheme_enemy_melee_heroes									Enemy Melee Heroes
-TargetScheme_hook_targets										All Non-Siege Units
-TargetScheme_enemy_units_and_corpses							Enemy Units and Corpses
-TargetScheme_nonneutral_enemy_units								Non-Neutral Enemies
-TargetScheme_player_controlled_ally_units						Player Controlled Ally Units
-TargetScheme_all_nonhero_units									All Non-Hero Units
-TargetScheme_other_heroes										Other Heroes
-TargetScheme_my_other_units										Owned Minions
-TargetScheme_enemy_nonhero_units								Non-Hero Enemy Units
-TargetScheme_organic_enemy_units								Organic Enemy Units
-TargetScheme_organic_ally_units									Organic Ally Units
-TargetScheme_all_organic_units									All Organic Units
-TargetScheme_all_heroes											All Heroes
-TargetScheme_enemy_main_base_structure							Enemy Main Base Structure
-TargetScheme_ally_well											Ally Well
-TargetScheme_all_other_nonboss_units							All Non-Boss Units
-TargetScheme_boss												Boss Units
-TargetScheme_other_bosses										Other Boss Units
-TargetScheme_enemy_nonboss_units								Non-Boss Enemies
-TargetScheme_nonneutral_organic_enemy_units						Non-Neutral Enemies
+TargetScheme_trees												Bäume
+TargetScheme_enemy_melee_units									Gegnerische Nahkampfeinheiten
+TargetScheme_enemy_creeps										Gegnerische Einheiten
+TargetScheme_attack												Ziel Angreifen
+TargetScheme_attack_all											Alle Ziele Angreifen
+TargetScheme_bottle												Ziel Flasche
+TargetScheme_melee_units										Nahkampfeinheiten
+TargetScheme_ranged_units										Fernkampfeinheiten
+TargetScheme_visible_enemy_units								Sichtbare Gegnereinheiten
+TargetScheme_visible_enemy_heroes								Sichtbare Gegnerhelden
+TargetScheme_visible_enemy_objects								sichtbare Gegnerobjekte
+TargetScheme_injured_ally_units									Verletzte Verbündete Einheiten
+TargetScheme_enemy_units_and_trees								Gegnerische Einheiten und Bäume
+TargetScheme_all_other_units									Alle anderen Einheiten
+TargetScheme_all_other_organic_units							Alle anderen organische Einheiten
+TargetScheme_enemy_buildings									Gegnerische Gebäude
+TargetScheme_enemy_melee_heroes									Gegnerische Nahkampfhelden
+TargetScheme_hook_targets										All Nichtbelagerungs Einheiten
+TargetScheme_enemy_units_and_corpses							Gegnerische Einheiten und Leichen
+TargetScheme_nonneutral_enemy_units								Nicht Neutrale Gegner Einheiten
+TargetScheme_player_controlled_ally_units						Verbündete Spieler Kontrollierte Einheiten
+TargetScheme_all_nonhero_units									Alle Nicht Helden Einheiten
+TargetScheme_other_heroes										Andere Helden
+TargetScheme_my_other_units										Eigene Einheiten
+TargetScheme_enemy_nonhero_units								Gegnerische Nicht Helden Einheiten
+TargetScheme_organic_enemy_units								Organische Gegner Einheiten
+TargetScheme_organic_ally_units									Organische Verbündete Einheiten
+TargetScheme_all_organic_units									Alle Organischen Einheiten
+TargetScheme_all_heroes											Alle Helden
+TargetScheme_enemy_main_base_structure							Gegnerische Hauptbasis Struktur
+TargetScheme_ally_well											Verbündeter Brunnen
+TargetScheme_all_other_nonboss_units							Alle Nichboss Einheiten
+TargetScheme_boss												Boss Einheiten
+TargetScheme_other_bosses										Andere Boss Einheiten
+TargetScheme_enemy_nonboss_units								Gegnerische Nichtboss Einheiten
+TargetScheme_nonneutral_organic_enemy_units						Nicht Neutrale organische Gegner Einheiten
 TargetScheme_boss1												
 TargetScheme_boss2												
 TargetScheme_WellMarker											
-TargetScheme_enemy_nonboss_npc_units							Non-Boss Enemy NPCs
-TargetScheme_enemy_units_and_structures							Enemy units & Structures
-TargetScheme_all_other_heroes									All Other Heroes
-TargetScheme_ally_objects										Ally Objects
+TargetScheme_enemy_nonboss_npc_units							Gegnerische Nichtboss NPC Einheiten
+TargetScheme_enemy_units_and_structures							Gegnerische Einheiten und Strukturen
+TargetScheme_all_other_heroes									Alle anderen Helden
+TargetScheme_ally_objects										Verbündete Objekte
 TargetScheme_visible_organic_enemy_units						
-TargetScheme_enemy_units_and_self								Self/Enemy Units
+TargetScheme_enemy_units_and_self								Gegnerische Einheiten und selbst
 TargetScheme_all_other_units_and_buildings						
-TargetScheme_summoned_enemy_units								Summoned Enemy Units
-TargetScheme_ally_creeps										Ally creeps
-TargetScheme_enemy_ranged_heroes								Enemy Ranged Heroes
+TargetScheme_summoned_enemy_units								Gegnerische Beschworene Einheiten
+TargetScheme_ally_creeps										Verbündete Einheiten
+TargetScheme_enemy_ranged_heroes								Gegnerische Fernkampfhelden
 TargetScheme_all_other_nongadget_units							
 TargetScheme_nonneutral_enemy_units_and_other_ally_heroes		
 TargetScheme_electriceyes										
-TargetScheme_other_ally_units									Other Ally Units
+TargetScheme_other_ally_units									andere Verbündete Einheiten
 TargetScheme_nonstealth_organic_enemy_units						
 TargetScheme_nonboss_visible_enemy_units						
 TargetScheme_nongadget_ally_units								
-TargetScheme_nonboss_organic_enemy_units						Enemy Organic Units
+TargetScheme_nonboss_organic_enemy_units						Organische Gegnereinheiten
 TargetScheme_neutral_aggro										
-TargetScheme_enemy_creeps_and_corpses							Enemy Creeps/Corpses
-TargetScheme_my_pseudo_pets										Owned Pseudopets
+TargetScheme_enemy_creeps_and_corpses							Gegnerische Einheiten und Leichen
+TargetScheme_my_pseudo_pets										Eigene Pseudotiere
 TargetScheme_ally_main_base_structure_and_trees					
-TargetScheme_nonillusion_enemy_heroes							Non-Illusion Enemy Heroes
-TargetScheme_my_illusions										Owned Illusions
-TargetScheme_other_ally_heroes									Other Ally Heroes
-TargetScheme_nonillusion_other_ally_heroes						Other Ally Heroes
-TargetScheme_engineer_units										Mechanical Units
+TargetScheme_nonillusion_enemy_heroes							Nicht-Illusion Gegnerhelden
+TargetScheme_my_illusions										Eigene Illusionen
+TargetScheme_other_ally_heroes									Andere Verbündete Helden
+TargetScheme_nonillusion_other_ally_heroes						Andere Verbündete Helden
+TargetScheme_engineer_units										Mechanische Einheiten
 TargetScheme_turret_targets										
-TargetScheme_ally_units_and_structures							Ally Units/Structures
+TargetScheme_ally_units_and_structures							Verbündete und Strukturen
 TargetScheme_pseudo_pets										
 TargetScheme_everything_but_towers								
 TargetScheme_Zephyr_Cyclones									
-TargetScheme_enemy_mana_units									Enemy Units with Mana
-TargetScheme_ally_mana_units									Ally Units with Mana
+TargetScheme_enemy_mana_units									Gegnerische Einheiten mit Mana
+TargetScheme_ally_mana_units									Verbündete Einheiten mit Mana
 TargetScheme_nonboss_organic_enemy_units_and_self				
 TargetScheme_all_corpses										
-TargetScheme_enemy_units_and_deniable							Deniable and Enemy Units
-TargetScheme_ally_nonhero_units									Allied Non-Hero Units
-TargetScheme_player_controlled_enemy_units						Player Controlled Enemy Units
-TargetScheme_all_nonhero_corpses								All Non-Hero Corpses
+TargetScheme_enemy_units_and_deniable							Verweigerbare and Gegnerische Einheiten
+TargetScheme_ally_nonhero_units									Verbündete Nicht Helden Einheiten
+TargetScheme_player_controlled_enemy_units						Spieler Kontrollierte Gegnereinheiten
+TargetScheme_all_nonhero_corpses								Alle Nichthelden Leichen
 TargetScheme_enemy_units_notmine								
 TargetScheme_touchpowerup										
 TargetScheme_all_units_except_couriers							
 TargetScheme_Gauntlet_Gadget									
-TargetScheme_heroes_only										Heroes Only
+TargetScheme_heroes_only										Nur Helden
 TargetScheme_movement											
 TargetScheme_canattack											
 TargetScheme_token												
 TargetScheme_cheese												
 TargetScheme_doombringer
-TargetScheme_enemy_and_willing_ally_heroes						Enemy & Willing Ally Heroes										
+TargetScheme_enemy_and_willing_ally_heroes						Gegnerische und Bereite Verbüntete Helden									
 
-Popup_gold														+{value}
-Popup_experience												+{value}
-Popup_critical													{value}!
-Popup_miss														Miss!
-Popup_deny														Denied!
-Popup_manaburn													-{value}
+Popup_gold														+{value} GOLD
+Popup_experience												+{value} EXP
+Popup_critical													{value}! KRIT
+Popup_miss														verfehlt!
+Popup_deny														Verweigert!
+Popup_manaburn													-{value} 
 Popup_poison													{value}!
 Popup_bonus_damage												+{value}
 Popup_deflection												-{value}
-Popup_toofar													Too bad!
+Popup_toofar													Zu Langsam!
 Popup_multicast													{value}x MULTICAST!
 Popup_bonus_mana												+{value}+
 Popup_execution													+{value}
 Popup_gainint													+{value} Int!
 Popup_loseint													-{value} Int!
 Popup_creep_kill												$
-Popup_05s														0.5s!
-Popup_15s														1.5s!
-Popup_25s														2.5s!
-Popup_35s														3.5s!
-Popup_45s														4.5s!
+Popup_05s														!!!0.5s!!!
+Popup_15s														!!!1.5s!!!
+Popup_25s														!!!2.5s!!!
+Popup_35s														!!!3.5s!!!
+Popup_45s														!!!4.5s!!!
 Popup_javoflight												{value}s!
 Popup_max														MAX!
 Popup_dot_physical_damage										{value}!
 Popup_timer														{value}
 Popup_timer_hero												{value}
 Popup_morult													{value}
-Popup_EmeraldWarden1													Gawain uses Diving Strike!
-Popup_EmeraldWarden2													Gawain uses Forest's Touch!
-Popup_EmeraldWarden3													Gawain uses Emerald Storm!
+Popup_EmeraldWarden1													Gawain benutzt Tauchschlag!
+Popup_EmeraldWarden2													Gawain benutzt Berührung des Waldes!
+Popup_EmeraldWarden3													Gawain benutzt Emerald Sturm!
 Popup_Ra														{value}!
-Popup_ra_rebirth												Rebirth!
+Popup_ra_rebirth												Wiedergeburt!
 Popup_ra_timer													{value}
 
 // Game Info
-Mode_Normal														All Pick
-Mode_RandomDraft												Random Draft
-Mode_SingleDraft												Single Draft
-Mode_BanningDraft												Banning Draft
+Mode_Normal														Alles Nehmbar
+Mode_RandomDraft												Alles Zufallentwürfe
+Mode_SingleDraft												Drei zur Auswahl 
+Mode_BanningDraft												Gebannte Entwurf, Zufall
 Mode_CaptainsDraft												Captains Draft
 Mode_CaptainsMode												Captains Mode
-Mode_Deathmatch													Deathmatch
-Mode_BanningPick												Banning Pick
-Mode_AllRandom													All Random
-Mode_Invalid													Invalid
+Mode_Deathmatch													Todeskampf
+Mode_BanningPick												Gebannte Auswahl, Alle 
+Mode_AllRandom													Alle Zufall
+Mode_Invalid													Ungültig
 
-Option_None														None
-Option_ForceRandom												Force Random
-Option_AlternateSelection										Alternate Selection
-Option_NoRepick													No Repick
-Option_NoSwap													No Swap
-Option_NoAgility												No Agility
-Option_NoIntelligence											No Intelligence
-Option_NoStrength												No Strength
-Option_AllHeroes												All Heroes
-Option_NoRespawnTimer											No Respawn Timer
-Option_DropItems												Drop Items
-Option_NoPowerups												No Powerups
-Option_SuperCreeps												Super Creeps
-Option_EasyMode													Easy Mode
-Option_DuplicateHeroes											Duplicate Heroes
-Option_ReverseSelection											Reverse Selection
-Option_NoTopLane												Close Top Lane
-Option_NoMiddleLane												Close Middle Lane
-Option_NoBottomLane												Close Bottom Lane
-Option_AllowVeto												Allow Veto
+Option_None														Keiner
+Option_ForceRandom												Zufallsgewallt
+Option_AlternateSelection										Alternative Auswahl
+Option_NoRepick													Keine Neuwahl
+Option_NoSwap													Kein Wechsel
+Option_NoAgility												Keine Geschicklichkeit Helden
+Option_NoIntelligence											Keine Intelligenz Helden
+Option_NoStrength												Keine Stärke Helden
+Option_AllHeroes												Alle Helden
+Option_NoRespawnTimer											Keine Wiedergeburtszeit
+Option_DropItems												Fallengelassene Items
+Option_NoPowerups												Keine Powerups
+Option_SuperCreeps												Super Einheiten
+Option_EasyMode													Leichte Version
+Option_DuplicateHeroes											Doppelte Helden
+Option_ReverseSelection											Gegenauslese
+Option_NoTopLane												Lane Oben Geschlossen
+Option_NoMiddleLane												Lane in der Mitte Geschlossen
+Option_NoBottomLane												Untere Lane Geschlossen
+Option_AllowVeto												Veto erlaubt
 Option_ShuffleTeams												Shuffle Teams
-Option_AutoBalanceTeams											Auto Balanced
-Option_DevHeroes												Dev Heroes
-Option_TournamentRules											Tournament Rules
+Option_AutoBalanceTeams											Auto Balanciert
+Option_DevHeroes												Nicht veröffentliche Helden
+Option_TournamentRules											Turnier Regeln
 Option_Hardcore													Hardcore
-Option_Casual													Casual Mode
+Option_Casual													Lässiger Modus
 
 // Building_HellbourneTower
 Building_HellbourneTower_name									Defense Tower
