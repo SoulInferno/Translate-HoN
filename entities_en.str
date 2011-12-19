@@ -174,8 +174,8 @@ TargetScheme_cheese
 TargetScheme_doombringer
 TargetScheme_enemy_and_willing_ally_heroes						Gegnerische und Bereite Verbüntete Helden									
 
-Popup_gold														+{value} GOLD
-Popup_experience												+{value} EXP
+Popup_gold														+{value} GOLD!
+Popup_experience												+{value} EXP!
 Popup_critical													{value}! KRIT
 Popup_miss														verfehlt!
 Popup_deny														Verweigert!
@@ -251,10 +251,10 @@ Option_Casual													Lässiger Modus
 Building_HellbourneTower_name									Verteidigungs Turm
 
 // Building_HellbourneBase
-Building_HellbourneBase_name									Opfer Schrein
+Building_HellbourneBase_name									OpferSchrein
 
 // Building_HellbourneRepeater4
-Building_HellbourneRepeater4_name								Fleichball
+Building_HellbourneRepeater4_name								Fleischball
 Building_HellbourneRepeater4_description						
 
 // Building_HellbourneMeleeBarracks
@@ -329,7 +329,7 @@ Building_Outpost_name											Außenposten
 Building_Outpost_description									icon.tga
 
 // Ability_AttributeBoost
-Ability_AttributeBoost_name										Temporäre Eigenschaftenverstärkung
+Ability_AttributeBoost_name										Temporärer Boost
 Ability_AttributeBoost_description								^ypro Level Bonuse:^*\n+2 Stärke\n+2 Geschicklichkeit\n+2 Intelligenz
 Ability_AttributeBoost_description_simple						Gibt deinem Helden einen Permanenten Bonus der Eigenschaften.\n\n^gPro Level Bonuse:^*\n+2 Stärke\n+2 Geschicklichkeit\n+2 Intelligenz
 
@@ -362,60 +362,60 @@ Ability_Accursed1_IMPACT_effect:Alt        						Macht {100,150,200,250} Magisch
 Ability_Accursed1_tooltip_flavor								Es ist ein bisschen Lieber/Hass in der Luft.
 
 // Ability_Accursed2
-Ability_Accursed2_name											Fire Shield
-Ability_Accursed2_description									Accursed covers a friendly unit in a shield of flames protecting them from damage and removing harmful effects. If the shield is damaged to its breaking point, it will explode, dealing Magical damage to nearby enemies equal to that of the damage absorbed.
-Ability_Accursed2_description_simple							Target a friendly unit to remove most debuffs and Stuns, and apply a shield which absorbs up to ^o{110,140,170,200} damage^*.\n\nIf the shield hits its limit, it explodes and deals ^o{110,140,170,200} Magic Damage^* to nearby enemies.
-Ability_Accursed2_effect_header									Fire Shield Effect(s)
-Ability_Accursed2_IMPACT_effect									Removes most debuffs and stuns, then applies Fire Shield to target for 15 seconds.
-Ability_Accursed2_tooltip_flavor								Here, wear this!
+Ability_Accursed2_name											Feuer Schild
+Ability_Accursed2_description									Accursed gibt einem Freun ein Schild welches ihn vor schaden beschützt und negative effekte entfernt. Wenn das Schild bis zu eine bestimmten Punkt schaden absorbiert hat, wird es explodieren, und richtet so viel Magischen Schaden an wie es absorbiert hat, dies schädigt allen Gegnern in der Umgebung an.
+Ability_Accursed2_description_simple							Freundliche einheit auswählen es entfernt alle debuffs und stuns, es gibt ein schild welches ^o{110,140,170,200} Schaden^*.\n\nIf absorbiert wenn die menge an maximalen absorb. erreicht wurde, wird es explodieren und  ^o{110,140,170,200} Magischen Schaden^* an nahen gegnern anrichten.
+Ability_Accursed2_effect_header									Feuer Schild Effekt(e)
+Ability_Accursed2_IMPACT_effect									Entfernt die meisten Debuffs und Stuns, dann bekommt das ziel für 15 sekunden Feuer Schild.
+Ability_Accursed2_tooltip_flavor								Hier, trag das!
 
 // State_Accursed_Ability2
-State_Accursed_Ability2_name									Fire Shield
-State_Accursed_Ability2_FRAME_effect							{110,140,170,200} damage shield. Once full amount is absorbed, damages enemies in 700 radius for {110,140,170,200} Magic Damage.
+State_Accursed_Ability2_name									Feuer Schild
+State_Accursed_Ability2_FRAME_effect							{110,140,170,200} Schaden Schild. wenn max. absorb. erreicht ist, erleiden alle gegner im radius von 700 {110,140,170,200} Magischen Schaden.
 
 // Ability_Accursed3
-Ability_Accursed3_name											Sear
-Ability_Accursed3_description									Causes Accursed's attacks to sear his target, slowing their Movement Speed. Any ally that attacks the affected unit will be buffed with increased Attack Speed and Movement Speed.
+Ability_Accursed3_name											Anbraten
+Ability_Accursed3_description									Accursed's Automatischen Angriffe geben dem Gegner "Anbraten", welches ihr Lauftempo verringert. Jeder Verbündete der dieses Ziel Angreift erhällt ein Schnelleres Angrifftemp und mehr Lauftempo.
 Ability_Accursed3_description2									
-Ability_Accursed3_description_simple							Passively causes attacks to apply ^o{-5,-10,-15,-20}% Movement Speed^* to the target.\n\nAllies who attack a target affected by Sear gain ^o{10,20,30,40} Attack Speed^* and ^o10% Movement Speed^*.
+Ability_Accursed3_description_simple							Passiv: gibt Accursed Autoangriffen ^o{-5,-10,-15,-20}% Lauftempo^* zum Ziel.\n\n Verbündete die diese Ziel Angreifen erhalten ^o{10,20,30,40} Angriffstempo^* und ^o10% Lauftempo^*.
 Ability_Accursed3_effect_header									Sear Effect(s)
-Ability_Accursed3_effect_header2								Burning Strikes Effect(s)
-Ability_Accursed3_ATTACK_IMPACT_effect							Applies Sear to target for 2 seconds.
-Ability_Accursed3_tooltip_flavor								I'M MELTING!
+Ability_Accursed3_effect_header2								Brennende Schläge Effekt(e)
+Ability_Accursed3_ATTACK_IMPACT_effect							Gibt dem target Anbraten für 2 ssekunden.
+Ability_Accursed3_tooltip_flavor								Ich werde dich Schmelzen!
 
 // State_Accursed_Ability3
-State_Accursed_Ability3_name									Sear
-State_Accursed_Ability3_description								Sear
+State_Accursed_Ability3_name									Anbraten
+State_Accursed_Ability3_description								Anbraten
 
 // State_Accursed_Ability3_Buff
-State_Accursed_Ability3_Buff_name								Burning Strikes
+State_Accursed_Ability3_Buff_name								Brennende Schläge
 
 // State_Accursed_Ability3_Debuff
-State_Accursed_Ability3_Debuff_name								Sear
-State_Accursed_Ability3_Debuff_FRAME_effect						When attacked, applies Burning Strikes to attacker for 4.5 seconds.
+State_Accursed_Ability3_Debuff_name								Anbraten
+State_Accursed_Ability3_Debuff_FRAME_effect						wenn angrgriffen gibt es Brennende Schläge dem Angreifer für 4,5 sekunden.
 
 // Ability_Accursed4
-Ability_Accursed4_name											Flame Consumption
-Ability_Accursed4_description									Accursed summons a powerful fire tornado around himself which, when fueled with damage, causes him to regain his life.
-Ability_Accursed4_description2									^930This ability can be boosted by ^930Staff ^930of ^930the ^930Master.^*^*^*^*^*\n\n^gStaff Effect:^* Increases duration from {3,4,5} seconds to {5,6,7} seconds and can be used while silenced.
-Ability_Accursed4_description_simple							Activate to remove debuffs from self and convert ^o100% of damage taken to Health gained^* for ^o{3,4,5} seconds^*.\n\n^gStaff of the Master^* increases the duration to ^o{5,6,7} seconds^* and allows Flame Consumption to be cast while silenced.
-Ability_Accursed4_effect_header									Protective Flames Effect(s)
-Ability_Accursed4_IMPACT_effect									Removes debuffs and applies Protective Flames to self for {3,4,5} seconds.
-Ability_Accursed4_name:ult_boost								Burning Consumption ^g(Boosted)^*
-Ability_Accursed4_description2:ult_boost						This ability has been boosted by Staff of the Master.
-Ability_Accursed4_IMPACT_effect:ult_boost						Removes debuffs and applies Protective Flames to self for ^g{5,6,7}^* seconds.\n\nCan be used while silenced.
-Ability_Accursed4_description_simple:ult_boost					Activate to remove debuffs from self and convert ^o100% of damage taken to Health gained^* for ^o{5,6,7} seconds^*.  May be cast while silenced.\n\nThis ability has been boosted by ^gStaff of the Master^*.
-Ability_Accursed4_tooltip_flavor								Give me fuel, give me fire, give me that which I desire!
+Ability_Accursed4_name											Verbrauch der Flammen
+Ability_Accursed4_description									Accursed beschwört einen Kräftigen Tornador um sich welcher, wenn er Schden bekommt, sich stattdessen sein Leben Regeneriert.
+Ability_Accursed4_description2									^930Diese Fähigkeit wird verstärkt von ^930Stab ^930der ^930Meister.^*^*^*^*^*\n\n^gStab Effekt:^* Erhöhte Dauer {3,4,5} sekunden zu {5,6,7} sekunden und er kann es einsetzten wenn er zum schweigen gebracht ist.
+Ability_Accursed4_description_simple							Aktivieren um alle Debuffs von sich selber zu entfernen und wandelt ^o100% des Schadens werden zu Accursed's Leben hinzugefügt^* für ^o{3,4,5} sekunden^*.\n\n^gStab der Meister^* erhöht die Dauer auf ^o{5,6,7} seconds^* und ermöglicht die benutzung wärend er zum schweigen gebracht ist.
+Ability_Accursed4_effect_header									Beschütztende Flammen
+Ability_Accursed4_IMPACT_effect									Entfernt Debuffs und gibt Beschützende Flammen für {3,4,5} sekunden.
+Ability_Accursed4_name:ult_boost								Verbrauch der Flammen ^g(Verbessert)^*
+Ability_Accursed4_description2:ult_boost						Diese Fähigkeit wird durch Stab der Meister verbessert.
+Ability_Accursed4_IMPACT_effect:ult_boost						 Entfernt Debuffs und gibt Beschützende Flammen für ^g{5,6,7}^* sekunden.\n\nKann während des Schweigen benutzt werden.
+Ability_Accursed4_description_simple:ult_boost					Aktivieren um alle Debuffs zu entfernen und wandelt die für ^o{5,6,7} sekunden^* ^o100% des genommenden Schaden in Heilung um^* .Kann verwendet werden während des Schweigen.\n\nDiese Fähigkeit wird verstärkt durch ^gStab der Meister^*.
+Ability_Accursed4_tooltip_flavor								Geb mir Benzin, Gebt mir Feuer, Gebt mir alles was ihr habt.
 
 // State_Accursed_Ability4
-State_Accursed_Ability4_name									Protective Flames
-State_Accursed_Ability4_FRAME_effect							100% of damage taken converted to Health
-State_Accursed_Ability4_DAMAGED_effect							Converts damage taken into Health
+State_Accursed_Ability4_name									Beschützende Flammen
+State_Accursed_Ability4_FRAME_effect							100% des Schaden wird in Leben umgewandelt.
+State_Accursed_Ability4_DAMAGED_effect							Wandelt schaden in Leben um.
 
 // Hero_Accursed
 Hero_Accursed_name												Accursed
-Hero_Accursed_description										Many have speculated as to what great, damned warrior now lives in torment within the burning armor that marches alongside the Hellbourne army. The Accursed, as he is known, screams in agony as he brings fiery devastation to his foes, but his actions seem driven more by a desire to find oblivion than by malice.
-Hero_Accursed_role												Accursed is a tanky support healer and debuffer with the rare ability to remove stuns via Flame Shield. His high survivability makes him especially valuable during team fights, as it discourages enemies from focusing their attacks on him.
+Hero_Accursed_description										Viele haben über ihn spekuliert , ein verdammter Krieger lebt in der Qual ,in dem brennenden Panzer, und in der Höllengeborenen Armee marschiert. Der Accursed, als der er Bekannt ist, bringt mit feuriger Verwüstung die Todesangst der Gegner zum Vorschein, aber seine Handlungen scheinen mehr nach dem Wunsch des Vergessens zu streben, als die der puren Bosheit.
+Hero_Accursed_role												Accursed ist ein tanky supporter der healen kann und die möglichkeit hat viele Debuffs zu entfernen. Seine Überlebensfähigkeit macht ihn extrem wertvoll in Team Kämpfen, es schreckt Feinde ab und zwingt sie dazu ihn zu focussieren.
 
 // Hero_Aluna
 Hero_Aluna_name													Aluna
