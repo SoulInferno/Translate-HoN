@@ -15,3 +15,6 @@ Sonst werden die deutschen Umlaute im Spiel nicht korrekt dargestellt !!
 
 Die Dateien werden zum Beispiel per WinRar in der Datei "resources0.s2z" gespeichert,
 welche im Verzeichnis *"/game/resources0.s2z" liegt.
+
+
+Gesponsort von Soul_Inferno und Killerbrille99
