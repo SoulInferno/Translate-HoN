@@ -3,14 +3,14 @@ AttackType_none													Kein
 AttackType_melee												Nahkampf
 AttackType_ranged												Fernkampf
 
-EffectType_Attack												Attack
-EffectType_Physical												Physisch
+EffectType_Attack												Angreifen
+EffectType_Physical												Körperlich
 EffectType_Magic												Magisch
-EffectType_StatusBuff											Buff
-EffectType_StatusDebuff											Debuff
+EffectType_StatusBuff											Verstärkung
+EffectType_StatusDebuff											Schwächung
 EffectType_StatusDisable										
 EffectType_StatusStealth										
-EffectType_Dominate												Dominate
+EffectType_Dominate												Dominiert
 EffectType_Transmute											Transmute
 EffectType_Disable												Disable
 EffectType_Astrolabe											Astrolabe
