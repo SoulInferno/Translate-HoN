@@ -10,21 +10,45 @@ disconnect_snapshot_fragment	                Too many snapshot fragments.	// WTF
 disconnect_not_invited			        Um an diesem privaten Spiel teilzunehmen, benötigst Du eine Einladung.
 disconnect_no_cookie			        Du musst Dich einloggen, um auf diesem Server zu spielen.
 disconnect_auth_failed			        Der Server konnte deinen Account nicht autorisieren. Bitte melde Dich erneut an.
+disconnect_duplicate_connect	Du wurdest vom Server getrennt, weil ein anderer Benutzer bereits mit deinem Account eingeloggt ist.
 disconnect_unknown				Du wurdest getrennt.
 disconnect_timeout				Server antwortet nicht.
 disconnect_game_over			        Das Spiel ist vorbei.
 disconnect_idle					Du wurdest wegen Untätigkeit getrennt.
 disconnect_terminated			        Du warst zu lange vom Server getrennt und kannst nicht mehr an diesem Spiel teilnehmen.
 disconnect_kicked				Du wurdest vom Host aus dem Spiel geworfen.
+disconnect_kicked_spec			You have been kicked from the game by the player you were spectating.
+disconnect_kicked_mentor		You have been kicked from the game by the player you were mentoring.
 disconnect_vote_kicked			        Du wurdest per Abstimmung aus dem Spiel geworfen.
 disconnect_unassigned			        Der Host hat das Spiel gestartet als du noch nicht in einem Team warst.
 disconnect_banned				Der Host hat dich von diesem Match verbannt.
 disconnect_leaver				Du hast nicht die Erlaubnis diesem Spiel beizutreten, da deine Abbruchquote zu hoch ist.
+disconnect_not_verified			Es ist dir nicht gestattet dieses Spiel zu betreten, da du nicht "verifiziert" bist.
 disconnect_overflow				Du wurdest wegen eines Paketüberlaufs vom Server getrennt.
 disconnect_flooding				Du wurdest wegen Flooding vom Server getrennt.
 disconnect_invalid_tier			        Du hast nicht die Erlaubnis Spiele auf dieser Stufe zu spielen.
+disconnect_invalid_psr			Deine PSR ist entweder zu hoch oder zu niedrig für dieses Match.
 disconnect_not_on_roster		        Du bist nicht auf der Liste für dieses ausgemachte Match.
-
+disconnect_modified_core_files	Your resources0.s2z file has been modified.  This file must NOT be changed!  Re-install Heroes of Newerth.
+disconnect_client_number_mismatch	Verbindungsfehler, bitte in Kürze noch einmal versuchen.
+disconnect_trial_not_allowed		Es ist dir mit einem Trial Account nicht gestattet zu diesem Match zu verbinden. Trial Accounts sind auf "No Stats" Matches limitiert.
+disconnect_duplicate_login			Der Server konnte deinen Account nicht verifizieren. Du musst eingeloggt bleiben um Spielen zu können.
+disconnect_duplicate_game_connect	You have been disconnected becuase another client has started playing a different game on this account.
+disconnect_unique_login_failed		You have been disconnected becuase the game server could not authorize your account. Please try again later.
+disconnect_mm_players_left		One or more players have disconnected from the match.
+disconnect_mm_player_left		A player has left the match.
+disconnect_mm_connect_timeout	It has taken too long for all of the players to establish a valid connection to the server, the match was aborted.
+disconnect_mm_start_timeout		It has taken too long for all of the players to finish loading, the match was aborted.
+disconnect_basic				Basic accounts cannot create games.
+disconnect_no_tokens			You need tokens or a pass to play this mode.
+disconnect_failed_refresh		Error when refreshing upgrades. You have been logged out.
+disconnect_no_match_id			The server failed to retrieve a match ID and was unable to start the match.
+disconnect_missing_spectate_player	The player you were attempting to spectate is not in the match. You have been disconnected.
+disconnect_no_mentor_spectator	Spectators and mentors may not be mentored. You have been disconnected.
+disconnect_not_accepted			The player you are attempting to spectate or mentor did not accept your request.
+disconnect_too_many_player_spectators			The player you are attempting to spectate or mentor already has the maximum allowed.
+disconnect_too_many_player_spectators_total		The server already has the maximum number of player spectators or mentors.
+disconnect_tourney_rules_no_spec	Player spectators and mentors are not allowed in a Tournmanet Rules match.
 
 rejected_invalid_request		        Dein Client hat eine ungültige Verbindungsanfrage gestellt.
 rejected_empty_address			        Der Server konnte Deine Adresse nicht ermitteln.
@@ -35,7 +59,7 @@ rejected_invalid_password		        Ungültiges Passwort.
 rejected_server_error			        Server-Fehler.
 rejected_server_taken			        Jemand anderes startet bereits ein Spiel auf dem Server den du ausgewählt hast. Bitte versuche es erneut.
 rejected_not_host				Du musst Hostberechtigungen haben um ein Spiel auf diesem Server zu starten.
-
+rejected_missing_spectate_player			Could not find the player you chose to spectate.
 
 // chat system messages
 chat_connecting					^279* Verbinde mit Chat-Server...
@@ -54,6 +78,8 @@ chat_whisper_sent				^066(Geflüstert an {target}) ^888{message}
 chat_whisper_buddies				^066<Geflüstert an Freunde> {message}
 chat_whisper_to_buddies				^099<{sender} Geflüstert an Freunde> {message}
 chat_whisper_failed_self			^279* Du kannst Dir nicht selbst etwas zuflüstern.
+chat_failed_invisible				^279* Du kannst im "unsichtbaren Modus" nicht chatten.
+chat_mode_switch_fail				^279* You cannot change your chat status while you are in invisible mode.  Please log out and log back in normally to use this feature.
 chat_mode_afk_auto_response			^099* Deine Nachricht wurde übermittelt, aber ^990{target}^279 ist z.Zt. nicht an der Tastatur: {message}
 chat_mode_afk_default_response		        Nicht an der Tastatur
 chat_mode_dnd_auto_response			^099 Deine Nachricht wurde nicht übermittelt, ^990{target}^279 möchte nicht gestört werden: {message}
@@ -79,6 +105,7 @@ chat_info_offline				^279* ^990{name}^279 ist derzeit offline, zuletzt gesehen u
 chat_info_online_no_channels			^279* ^990{name}^279 ist derzeit online und in keinen Channels.
 chat_info_online_one_channel			^279* ^990{name}^279 ist derzeit online und im Channel '{channel}'.
 chat_info_online_multi_channels			^279* ^990{name}^279 ist derzeit online und in folgenden Channels: {channels}
+chat_info_joining_game				^279* ^990{name}^279 is currently online and connecting to a game.
 chat_info_in_game				^279* ^990{name}^279 ist derzeit online und im Spiel '{game}^279'.
 chat_info_in_game_time				^279* ^990{name}^279 ist derzeit online und im Spiel '{game}^279'. Momentane Spielzeit: {cgt}.
 chat_ignored					^279* ^990{name}^279 wird ab jetzt ignoriert.
@@ -90,14 +117,22 @@ chat_user_info_offline				^279* ^990{name}^279 ist derzeit offline.
 chat_user_info_in_game				^279* ^990{name}^279 ist derzeit im Spiel '{game}^279'.
 chat_saving_channel					^279* Speichere ^g{channel}^279 in deine Channel Liste...
 chat_failed_saving_channel			^279* Speichern von ^g{channel}^279 in deiner Channel Liste fehlgeschlagen...
+chat_invalid_channel				^279* Unable to save ^g{channel}^279 to your auto join channel list, it is a group channel or it contains an invalid character. (% or ^)
 chat_removing_channel				^279* Entferne ^g{channel}^279 aus deiner Channel Liste...
 chat_failed_removing_channel		        ^279* Entfernen von ^g{channel}^279 aus deiner Channel Liste fehlgeschlagen...
 chat_failed_saving_notification		        ^279* Speichern der Benachrichtigung fehlgeschlagen...
 chat_failed_removing_notification	        ^279* Entfernen der Benachrichtigungs-ID {id} fehlgeschlagen...
 chat_failed_removing_notifications	        ^279* Entfernen aller Benachrichtigungen fehlgeschlagen...
+chat_invalid_buddy_group			^279* Unable to move ^990{buddy}^279 to the buddy group ^g{group}^279, the group name contains an invalid character. (% or ^)
+chat_saving_buddy_group				^279* Moving ^990{buddy}^279 to the buddy group ^g{group}^279...
+chat_removing_buddy_group			^279* Removing ^990{buddy}^279 from their buddy group...
+chat_saved_buddy_group				^279* Moved ^990{buddy}^279 to the buddy group ^g{group}^279...
+chat_removed_buddy_group			^279* Removed ^990{buddy}^279 from their buddy group...
+chat_failed_buddy_group				^279* Failed to change the buddy group for ^990{buddy}^279...
 chat_adding_buddy				^279* ^990{name}^279 wird als Freund hinzugefügt...
 chat_failed_buddy_add				^279* Fehler beim Hinzufügen von ^990{target}^279 zu Deiner Freundesliste.
 chat_failed_buddy_add_self			^279* Du kannst Dich nicht selbst als Freund hinzufügen.
+chat_failed_buddy_remove_self		^279* You cannot remove yourself as a buddy.
 chat_failed_buddy_add_duplicate			^279* Du kannst Dich nicht selbst als Freund hinzufügen.
 chat_failed_buddy_add_reason			^279* Fehler beim Hinzufügen von ^990{target}^279 zu Deiner Freundesliste: {reason}
 chat_failed_buddy_remove			^279* Fehler beim Entfernen von ^990{target}^279 von Deiner Freundesliste.
@@ -108,6 +143,9 @@ chat_requesting_buddy				^279* Anfordern von ^990{name}^279 als Freund...
 chat_requested_approval_adder		        ^279* Du fordertest ^990{name}^279 als Freund an...
 chat_requested_approval_added		        ^279* ^990{name}^279 forderte dich als Freund an...
 chat_requested_approval_failed		        ^279* Anfordern von ^990{name}^279 als Freund fehlgeschlagen...
+chat_requested_approval_duplicate	^279* Either you or the user ^990{name}^279 has recently initiated an add buddy request, please wait one minute before re-requesting them...
+chat_requested_approval_ignored		^279* The user ^990{name}^279 has you on their ignore list, unable to request them as a buddy.
+chat_requested_approval_limit		^279* You have reached your limit of friends.
 chat_approving_buddy				^279* Bestätigen von ^990{name}^279 als Freund...
 chat_failed_approving_buddy			^279* Bestätigen von ^990{name}^279 als Freund fehlgeschlagen...
 chat_clan_promoting				^279* Clanmitglied ^990{name}^279 wird zum Offizier befördert...
@@ -261,12 +299,17 @@ chat_clan_rank_officer				Offizier
 chat_clan_rank_leader				Oberhaupt
 chat_clan_no_clan				^279* Du bist nicht in einem Clan.
 chat_tourn_match_ready				^279* Dem Match für das Turnier, in dem du ^990{name}^279 zum Spielen geplant bist kann nun beigetreten werden. Benutze den Turnier Abschnitt in der Community und Clan Konsole um beizutreten.
+chat_unable_to_join_group				Unable to join the matchmaking group because you are currently in a game or a replay.
+chat_sending_player_spectate_request	^279* Request sent to ^990{name}^279.
+chat_player_spectate_denied				^279* ^990{name}^279 declined your request or didn't respond.
+chat_player_spectate_denied_full_server	^279* The server ^990{name}^279 is on has already reached the limit of player spectators and mentors.
+chat_player_spectate_denied_full_player	^279* ^990{name}^279 has already reached the limit of player spectators and mentors
+
 
 // stats
 chat_stats_header				^492* Stats für ^982{name}^492
 chat_stats_body1				^492    Clan: ^999{clan_name}   ^982||   ^492    Lvl: ^999{level}   ^982||   ^492W: ^999{wins}^555({winpercent}) ^492L: ^999{losses} ^492Disc: ^999{disconnects}^555({leavepercent})
 chat_stats_body2				^492    K/D/A: ^999{kills} ^492/ ^999{deaths} ^492/ ^999{assists}   ^982||   ^492Exp / Min: ^999{expmin}   ^982||   ^492PSR: ^999{psr}
-
 
 // chat notifications
 chat_notification_cc_panel			Drücke F6, um das Community & Clan Panel zu öffnen.
@@ -289,8 +332,6 @@ chat_notification_clan_rank_change		{changer} hat ^990{name}^279's Rang auf ^990
 chat_notification_clan_rank_change_self 	{changer} hat deinen Rang auf ^990{rank}^279 geändert.
 chat_notification_clan_kick			{changer} hat ^990{name}^279 aus dem Clan geworfen.
 chat_notification_clan_kick_self		{changer} hat dich aus dem Clan geworfen.
-
-
 
 // chat commands
 chat_command_whisper				/whisper
@@ -344,6 +385,7 @@ chat_command_clan_leave_help		        ^279*^707 /clan leave.
 chat_command_clear				/clear
 chat_command_clear_short			/cl
 chat_command_join				/join
+chat_command_join_help				^279*^707 /join <channel> "password".  (surround password with quotes)
 chat_command_join_short				/j
 chat_command_invite				/invite
 chat_command_invite_short			/i
@@ -461,7 +503,6 @@ chat_command_password				/password
 chat_command_password_short			/pass
 chat_command_password_set_help		        ^279*^707 /password <password> (Setzt das Passwort, benötigt Channel Adminberechtigungen)
 chat_command_password_clear_help	        ^279*^707 /password (Löscht das Passwort, benötigt Channel Adminberechtigungen)
-
 chat_command_roll				/roll
 chat_command_roll_help				^279*^707 /roll <niedrig> <hoch> (Würfelt eine Zahl zwischen niedrig und hoch, (1 bis 32,767)).
 chat_command_emote				/emote
@@ -474,12 +515,20 @@ chat_command_matchup_short			/ma
 chat_command_matchup_help			Matchup Informationen sind nur verfügbar, wenn das Match gestartet wurde.
 chat_command_gameinfo				/gameinfo
 chat_command_gameinfo_short			/gi
+chat_command_ping_all				/pingall
+chat_command_ping_all_short			/pa
 chat_command_available				/available
 chat_command_available_message		        ^279* Dein Gesprächsstatus ist jetzt 'verfügbar'.
 chat_command_afk				/afk
 chat_command_afk_message			^279* Dein Gesprächsstatus ist jetzt 'nicht an der Tastatur': {reason} 
 chat_command_dnd				/dnd
 chat_command_dnd_message			^279* Dein Gesprächsstatus ist jetzt 'bitte nicht stören': {reason}
+
+chat_command_weather				/weather
+chat_command_weather_intro			^279* Type a weather command:
+chat_command_weather_entry			^279* /weather {name}
+chat_command_weather_selected		^279* Selected weather effect '{name}'
+
 chat_command_help				/help
 chat_command_help_short				/h
 chat_command_character				/
@@ -520,6 +569,7 @@ chat_command_help_gameinfo			^279*^707 /gameinfo^279 (nur im Spiel)       -Gibt 
 chat_command_help_available			^279*^707 /available^279					 -Stellte den Gesprächsstatus aus 'verfügbar'.
 chat_command_help_afk				^279*^707 /afk <AFK Nachricht>^279			 -Stellt den Gesprächsstatus auf 'nicht an der Tastatur' um und antwortet automatisch mit der angegebenen Nachricht auf Geflüster.
 chat_command_help_dnd				^279*^707 /dnd <DND Nachricht>^279			 -Stellt den Gesprächsstatus auf 'bitte nicht stören' um, stoppt eingehendes Geflüster vor der Zustellung und antwortet automatisch auf eingehendes Geflüster mit der angegebenen Nachricht.
+chat_command_help_weather			^279*^707 /weather^279 (in game only)        -Set weather effect
 chat_command_help_misc				^279* Gib irgendeinen Befehl ohne Parameter ein, um Informationen zu erhalten wie der Befehl benutzt wird.
 
 //End
